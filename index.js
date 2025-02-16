@@ -9,8 +9,6 @@ app.use(bodyParser.json());
 let tasks = [];
 let idCounter = 1;
 
-
-
 // Get all tasks
 app.get('/tasks', (req, res) => {
     res.json(tasks);
